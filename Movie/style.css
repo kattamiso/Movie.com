@@ -101,3 +101,104 @@
     height: 40px;
     border: 0px;
 }
+
+/* black-theme */
+.black-theme {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+/* swiper */
+
+.swiper {
+    width: 100%;
+    height: 500px;
+    width: 1000px;
+    top: 40px;
+    border-radius: 0px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #003FFE;
+    background-color: transparent ;
+}
+
+.title-for-slides {
+    position:absolute;
+    width:100%;
+    background: rgba(255, 166, 0, 0.309);   
+    bottom:0;
+    left:0;
+    padding-left:15px;
+    font-size:17px;
+    z-index:5;
+}
+
+.premiers {
+    background: rgba(255, 166, 0, 0.309);  
+    color: black;
+}
+
+/* film lists */
+.Trendy-section-heading {
+   padding-top: 70px;
+   padding-left: 50px;
+   font-size: 40px;
+   color: #003FFE;
+}
+
+.Trendy-section {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Trendy-div {
+   position: relative;
+   margin-top: 28px;
+   margin-left: 50px;
+   height: 180px;
+   width: 180px;
+}
+
+.Trendy-img {
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.Trendy-img:hover {
+    box-shadow: 0 0 20px 2px rgba(134, 130, 167, 0.6);
+    transform: scale(1.1);
+    z-index: 3;
+}
