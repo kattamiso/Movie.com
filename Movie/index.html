@@ -36,6 +36,94 @@
       <button type="submit" class="search-btn"><img src="logo/search.png" class="search-icon"></button>
     </form>
   </div>
+    
+    <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img/Elvis-horizontal.jpg">
+        <div class="title-for-slides">
+        <h2 class="premiers">Premier Now</h2>
+      </div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="img/maverick.png">
+        <div class="title-for-slides">
+          <h2 class="premiers">Premier Now</h2>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="img/the-batman-horizontal.png">
+        <div class="title-for-slides">
+          <h2 class="premiers">Premier Now</h2>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="img/Thor-horizontal.jpg">
+        <div class="title-for-slides">
+          <h2 class="premiers">Premier Now</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+</div>
+    
+  <!-- film lists -->
+<h2 class="Trendy-section-heading">Trendy Films</h2>
+    
+  <div class="Trendy-section">
+
+   <div class="Trendy-div">
+     <img src="img/avatar.jpg" class="Trendy-img">
+    </div> 
+
+   <div class="Trendy-div">
+     <img src="img/the vikings.png" class="Trendy-img">
+   </div>
+
+    <div class="Trendy-div">
+     <img src="img/forrest gump.jpg" class="Trendy-img">
+     </div>
+
+    <div class="Trendy-div">
+      <img src="img/no country for old man.jpg" class="Trendy-img">
+     </div>
+
+     <div class="Trendy-div">
+       <img src="img/the godfather.jpg" class="Trendy-img">
+      </div>
+   
+  </div>
        
 </body>
 </html>
