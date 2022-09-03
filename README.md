@@ -1,2 +1,2 @@
 # Movie
-Movie.ge 
+Movie.com 
