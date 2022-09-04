@@ -202,3 +202,66 @@
     transform: scale(1.1);
     z-index: 3;
 }
+
+/* sign up form */
+
+.container {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 250px;
+}
+
+.registration {
+    padding-top: 15px;
+    padding-bottom: 45px;
+    color: #2f343b;
+}
+
+.input {
+   background-color: #fff;
+   height: 30px;
+   padding-left: 100px;
+   font-size: 20px;
+   color: #2f343b;
+   border-radius: 15px;
+}
+
+.input::placeholder {
+    color: #686c72;
+}
+
+.user-details {
+    width: 700px;
+    z-index: 999; 
+    margin: 0 auto;
+}
+
+.details {
+    font-size: 20px;
+    margin: 10px;
+    background: #8825D0; 
+    color: white;
+}
+
+.registration, form, .input-box, .user-details  {
+    background: linear-gradient(50deg,#003FFE, #dc16b4); 
+}
+
+.submit {
+    border-radius: 15px;
+    background-color:  rgb(68, 68, 158);
+    color:#f1f2f5;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    width: 120px;
+    margin-top: 20px;
+}
+
+.submit:hover {
+    background-color:  rgb(123, 63, 115);
+}
